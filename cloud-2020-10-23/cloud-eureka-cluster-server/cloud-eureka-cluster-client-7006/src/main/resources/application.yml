@@ -1,0 +1,16 @@
+server:
+  port: 7006
+
+spring:
+  application:
+    name: cloud-eureka-cluster-client
+
+eureka:
+  client:
+    #    不向注册中心注册自己
+    register-with-eureka: true
+    #    是否从EurekaServer抓取已有的注册信息，默认是true,群集必须设置true才能配合ribbon
+    fetch-registry: true
+    service-url:
+#      集群版
+      defaultZone: http://cluster1-7004.com:7004/eureka/,http://cluster2-7005.com:7005/eureka/

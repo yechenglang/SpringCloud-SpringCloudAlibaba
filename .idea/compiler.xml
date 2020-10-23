@@ -14,6 +14,7 @@
         <module name="order-producer" />
         <module name="cloud-start" />
         <module name="cloud-eureka-server-node1-7004" />
+        <module name="cloud-eureka-cluster-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="cloud-eureka-7001 (1)" target="11" />
       <module name="cloud-eureka-client-order" target="11" />
       <module name="cloud-eureka-client-order-producer" target="11" />
+      <module name="cloud-eureka-cluster-client" target="11" />
       <module name="cloud-eureka-cluster-server" target="11" />
       <module name="cloud-eureka-server-node1-7004" target="11" />
       <module name="cloud-eureka-server-node2-7005" target="11" />
