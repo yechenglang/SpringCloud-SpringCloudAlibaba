@@ -7,11 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-2020-10-23" />
+        <module name="cloud-start" />
+        <module name="cloud-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-10-23" target="11" />
+      <module name="cloud-eureka" target="11" />
+      <module name="cloud-start" target="11" />
+      <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

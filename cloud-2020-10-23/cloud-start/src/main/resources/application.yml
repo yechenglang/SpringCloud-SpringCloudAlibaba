@@ -1,0 +1,6 @@
+server:
+  prot: 8080
+
+spring:
+  application:
+    name: cloud-start
