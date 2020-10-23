@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/cloud-2020-10-23/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node2-7005/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

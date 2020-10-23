@@ -12,11 +12,11 @@ import java.lang.reflect.Method;
  */
 @SpringBootApplication
 @EnableEurekaServer
-public class CloudEurekaApplication {
+public class CloudEurekaServerApplication {
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(CloudEurekaApplication.class, args);
+        SpringApplication.run(CloudEurekaServerApplication.class, args);
     }
 
     /**

@@ -1,0 +1,19 @@
+server:
+  port: 7004
+
+spring:
+  application:
+#    集群情况下，情保证application.name相同，否则不可用
+    name: ClusterEureka
+
+
+eureka:
+  instance:
+    hostname: cluster1-7004.com
+  client:
+    #    不向注册中心注册自己
+    register-with-eureka: false
+    #    是否从EurekaServer抓取已有的注册信息，默认是true,群集必须设置true才能配合ribbon
+    fetch-registry: false
+    service-url:
+      defaultZone: http://cluster2-7005.com:7005/eureka/

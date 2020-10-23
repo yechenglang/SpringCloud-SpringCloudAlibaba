@@ -8,17 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="payment-producer" />
+        <module name="cloud-eureka-server-node2-7005" />
+        <module name="cloud-eureka-7001" />
+        <module name="cloud-eureka-7001 (1)" />
         <module name="order-producer" />
         <module name="cloud-start" />
-        <module name="cloud-eureka-7001" />
+        <module name="cloud-eureka-server-node1-7004" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-10-23" target="11" />
       <module name="cloud-eureka" target="11" />
       <module name="cloud-eureka-7001" target="11" />
+      <module name="cloud-eureka-7001 (1)" target="11" />
       <module name="cloud-eureka-client-order" target="11" />
       <module name="cloud-eureka-client-order-producer" target="11" />
+      <module name="cloud-eureka-cluster-server" target="11" />
+      <module name="cloud-eureka-server-node1-7004" target="11" />
+      <module name="cloud-eureka-server-node2-7005" target="11" />
       <module name="cloud-start" target="11" />
       <module name="order-producer" target="11" />
       <module name="payment-producer" target="11" />
