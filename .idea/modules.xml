@@ -7,8 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-7001/cloud-eureka-7001.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-7001/cloud-eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/cloud-eureka-client-order.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/cloud-eureka-client-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/cloud-start.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/cloud-start.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer/order-producer.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer/order-producer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer/payment-producer.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer/payment-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer-7002/order-producer.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer-7002/order-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer-7003/payment-producer.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer-7003/payment-producer.iml" />
     </modules>
   </component>
 </project>

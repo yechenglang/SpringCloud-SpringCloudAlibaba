@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>order-consumer</module>
-        <module>payment-producer</module>
+        <module>order-consumer-7002</module>
+        <module>payment-producer-7003</module>
     </modules>
 
 
