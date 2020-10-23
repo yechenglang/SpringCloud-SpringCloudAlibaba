@@ -7,14 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="payment-producer" />
+        <module name="order-producer" />
         <module name="cloud-start" />
-        <module name="cloud-eureka" />
+        <module name="cloud-eureka-7001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-10-23" target="11" />
       <module name="cloud-eureka" target="11" />
+      <module name="cloud-eureka-7001" target="11" />
+      <module name="cloud-eureka-client-order" target="11" />
+      <module name="cloud-eureka-client-order-producer" target="11" />
       <module name="cloud-start" target="11" />
+      <module name="order-producer" target="11" />
+      <module name="payment-producer" target="11" />
       <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
