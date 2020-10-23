@@ -1,0 +1,41 @@
+# Compile files
+*.class
+*.jar
+*.war
+*.ear
+
+
+# Maven
+target/
+*.ser
+*.ec
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+.apt_generated
+.factorypath
+.springBeans
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+
+# OS X
+.DS_Store
+
+# Window
+Thumbs.db
+
+# Log File
+*.log
+*.log.*
+
+# gegerator
+generator/
+
