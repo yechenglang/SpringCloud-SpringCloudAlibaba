@@ -4,7 +4,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/cloud-2020-10-23/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer-7002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer-7003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node2-7005/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node1-7004/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-cluster-client-7006/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-server-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
