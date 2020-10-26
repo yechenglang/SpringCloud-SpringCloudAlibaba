@@ -3,6 +3,7 @@ package cn.cloud.ycl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import java.lang.reflect.Field;
@@ -12,14 +13,17 @@ import java.lang.reflect.Method;
  * @author 叶成浪
  * @date 2020.10.23
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"cn.cloud.ycl"})
 @EnableEurekaClient
+@EnableDiscoveryClient
 public class PaymentProducerApplication {
+
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(PaymentProducerApplication.class,args);
+        SpringApplication.run(PaymentProducerApplication.class, args);
     }
+
 
     /**
      * 忽略非法反射警告  适用于jdk11
@@ -43,4 +47,8 @@ public class PaymentProducerApplication {
         } catch (Exception ignored) {
         }
     }
+
+
+
+
 }
