@@ -11,6 +11,7 @@
         <module name="cloud-eureka-server-7001" />
         <module name="payment-producer-7003" />
         <module name="cloud-eureka-server-node2-7005" />
+        <module name="cloud-zookeeper-client2-7008" />
         <module name="cloud-eureka-cluster-client-7006" />
         <module name="cloud-eureka-server-node1-7004" />
         <module name="order-consumer-7002" />
@@ -33,6 +34,7 @@
       <module name="cloud-start" target="11" />
       <module name="cloud-start-8080" target="11" />
       <module name="cloud-zookeeper-client-7007" target="11" />
+      <module name="cloud-zookeeper-client2-7008" target="11" />
       <module name="order-consumer-7002" target="11" />
       <module name="order-producer" target="11" />
       <module name="payment-producer" target="11" />
