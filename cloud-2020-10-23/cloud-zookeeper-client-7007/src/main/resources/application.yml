@@ -1,0 +1,9 @@
+server:
+  port: 7007
+
+spring:
+  application:
+    name: cloud-zookeeper-client-7007
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181

@@ -32,6 +32,7 @@
         <module>cloud-eureka-server-7001</module>
         <module>cloud-eureka-client-order</module>
         <module>cloud-eureka-cluster-server</module>
+        <module>cloud-zookeeper-client-7007</module>
     </modules>
 
 
