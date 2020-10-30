@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-zookeeper-client-7007
+    name: cloud-zookeeper-producer-7007
   cloud:
     zookeeper:
       connect-string: 127.0.0.1:2181

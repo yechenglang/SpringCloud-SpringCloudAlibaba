@@ -20,7 +20,7 @@ import java.util.UUID;
 public class TestController {
 
 
-    public static final String invoke_url="http://cloud-zookeeper-client-7007";
+    public static final String invoke_url="http://cloud-zookeeper-producer-7007";
 
     @Resource
     private RestTemplate restTemplate;

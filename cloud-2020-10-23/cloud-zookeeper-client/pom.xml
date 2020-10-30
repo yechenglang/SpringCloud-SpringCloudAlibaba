@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>cloud-zookeeper-client-7007</module>
-        <module>cloud-zookeeper-client2-7008</module>
+        <module>cloud-zookeeper-producer-7007</module>
+        <module>cloud-zookeeper-consumer-7008</module>
     </modules>
 
 

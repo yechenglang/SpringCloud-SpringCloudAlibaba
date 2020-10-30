@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-zookeeper-client2-7008</artifactId>
+    <artifactId>cloud-zookeeper-producer-7007</artifactId>
 
     <dependencies>
         <dependency>
