@@ -29,10 +29,9 @@
 
     <modules>
         <module>cloud-start-8080</module>
-        <module>cloud-eureka-server-7001</module>
-        <module>cloud-eureka-client-order</module>
         <module>cloud-eureka-cluster-server</module>
         <module>cloud-zookeeper-client</module>
+        <module>cloud-eureka-single-server</module>
     </modules>
 
 
@@ -68,8 +67,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
 
 
     <build>

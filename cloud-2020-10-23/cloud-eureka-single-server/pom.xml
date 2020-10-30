@@ -9,13 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-eureka-client-order</artifactId>
+    <artifactId>cloud-eureka-single-server</artifactId>
     <packaging>pom</packaging>
 
+
     <modules>
-        <module>order-consumer-7002</module>
-        <module>payment-producer-7003</module>
+        <module>cloud-eureka-client-consumer-7002</module>
+        <module>cloud-eureka-client-producer-7003</module>
+        <module>cloud-eureka-server-7001</module>
     </modules>
+
 
 
 </project>
