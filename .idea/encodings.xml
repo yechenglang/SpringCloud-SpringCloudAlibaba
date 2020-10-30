@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer-7002/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/order-consumer-7002/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer-7003/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/payment-producer-7003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-cluster-client-7006/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-cluster-client-7006/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node1-7004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node1-7004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node2-7005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-cluster-server/cloud-eureka-server-node2-7005/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-server-7001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-server-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-client-consumer-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-client-consumer-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-client-producer-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-client-producer-7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-server-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-server-7001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-client-7007/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-client-7007/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-client2-7008/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-client2-7008/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-consumer-7008/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-consumer-7008/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-producer-7007/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-producer-7007/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
