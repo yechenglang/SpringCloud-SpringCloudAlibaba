@@ -2,21 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
         <artifactId>cloud-2020-10-23</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>cloud-eureka-cluster-server</artifactId>
+    <artifactId>cloud-zookeeper-client</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>cloud-eureka-server-node1-7004</module>
-        <module>cloud-eureka-server-node2-7005</module>
-        <module>cloud-eureka-cluster-client-7006</module>
+        <module>cloud-zookeeper-client-7007</module>
+        <module>cloud-zookeeper-client2-7008</module>
     </modules>
-
 
 
 </project>
