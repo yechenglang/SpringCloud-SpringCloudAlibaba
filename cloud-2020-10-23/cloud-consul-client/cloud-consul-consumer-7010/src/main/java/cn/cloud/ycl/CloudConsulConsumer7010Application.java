@@ -1,22 +1,34 @@
 package cn.cloud.ycl;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
  * @author 叶成浪
+ * @date 2020.10.29
+ *
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class CloudEurekaClusterClientApplication {
+@EnableDiscoveryClient
+public class CloudConsulConsumer7010Application {
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(CloudEurekaClusterClientApplication.class, args);
+        SpringApplication.run(CloudConsulConsumer7010Application.class, args);
+    }
+
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
     }
 
     /**

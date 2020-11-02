@@ -32,6 +32,7 @@
         <module>cloud-eureka-cluster-server</module>
         <module>cloud-zookeeper-client</module>
         <module>cloud-eureka-single-server</module>
+        <module>cloud-consul-client</module>
     </modules>
 
 
