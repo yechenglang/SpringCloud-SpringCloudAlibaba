@@ -1,0 +1,15 @@
+server:
+  port: 7011
+
+spring:
+  application:
+    name: cloud-ribbon-client-producer-7011
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
