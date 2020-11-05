@@ -7,9 +7,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/**
- * @author 叶成浪
- */
 @SpringBootApplication
 @EnableEurekaServer
 public class CloudEurekaServerApplication {
@@ -41,5 +38,4 @@ public class CloudEurekaServerApplication {
         } catch (Exception ignored) {
         }
     }
-
 }

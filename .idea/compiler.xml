@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-zookeeper-producer-7007" />
         <module name="cloud-eureka-server-node2-7005" />
+        <module name="cloud-eureka-server-7000" />
+        <module name="cloud-start-8080" />
+        <module name="cloud-eureka-client-consumer-7002" />
+        <module name="cloud-ribbon-client-producer-7011" />
+        <module name="cloud-zookeeper-producer-7007" />
         <module name="cloud-zookeeper-consumer-7008" />
         <module name="cloud-consul-producer-7009" />
         <module name="cloud-eureka-cluster-client-7006" />
         <module name="cloud-ribbon-client-consumer-7012" />
         <module name="cloud-eureka-client-producer-7003" />
         <module name="cloud-eureka-server-node1-7004" />
-        <module name="cloud-start-8080" />
-        <module name="cloud-eureka-client-consumer-7002" />
         <module name="cloud-consul-consumer-7010" />
-        <module name="cloud-ribbon-client-producer-7011" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +37,7 @@
       <module name="cloud-eureka-cluster-client" target="11" />
       <module name="cloud-eureka-cluster-client-7006" target="11" />
       <module name="cloud-eureka-cluster-server" target="11" />
+      <module name="cloud-eureka-server-7000" target="11" />
       <module name="cloud-eureka-server-7001" target="11" />
       <module name="cloud-eureka-server-node1-7004" target="11" />
       <module name="cloud-eureka-server-node2-7005" target="11" />

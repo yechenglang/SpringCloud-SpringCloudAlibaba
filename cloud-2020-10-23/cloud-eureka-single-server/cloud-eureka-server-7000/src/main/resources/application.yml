@@ -1,5 +1,5 @@
 server:
-  port: 7001
+  port: 7000
 
 eureka:
   instance:
@@ -9,4 +9,3 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
     register-with-eureka: false
     fetch-registry: false
-
