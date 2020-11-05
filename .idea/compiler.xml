@@ -12,37 +12,42 @@
         <module name="cloud-zookeeper-consumer-7008" />
         <module name="cloud-consul-producer-7009" />
         <module name="cloud-eureka-cluster-client-7006" />
+        <module name="cloud-ribbon-client-consumer-7012" />
         <module name="cloud-eureka-client-producer-7003" />
         <module name="cloud-eureka-server-node1-7004" />
         <module name="cloud-start-8080" />
         <module name="cloud-eureka-client-consumer-7002" />
         <module name="cloud-consul-consumer-7010" />
+        <module name="cloud-ribbon-client-producer-7011" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-2020-10-23" target="1.8" />
-      <module name="cloud-consul-client" target="1.8" />
-      <module name="cloud-consul-consumer-7010" target="1.8" />
-      <module name="cloud-consul-producer-7009" target="1.8" />
+      <module name="cloud-2020-10-23" target="11" />
+      <module name="cloud-consul-client" target="11" />
+      <module name="cloud-consul-consumer-7010" target="11" />
+      <module name="cloud-consul-producer-7009" target="11" />
       <module name="cloud-eureka" target="11" />
       <module name="cloud-eureka-7001" target="11" />
       <module name="cloud-eureka-7001 (1)" target="11" />
-      <module name="cloud-eureka-client-consumer-7002" target="1.8" />
+      <module name="cloud-eureka-client-consumer-7002" target="11" />
       <module name="cloud-eureka-client-order" target="11" />
       <module name="cloud-eureka-client-order-producer" target="11" />
-      <module name="cloud-eureka-client-producer-7003" target="1.8" />
+      <module name="cloud-eureka-client-producer-7003" target="11" />
       <module name="cloud-eureka-cluster-client" target="11" />
-      <module name="cloud-eureka-cluster-client-7006" target="1.8" />
-      <module name="cloud-eureka-cluster-server" target="1.8" />
-      <module name="cloud-eureka-server-7001" target="1.8" />
-      <module name="cloud-eureka-server-node1-7004" target="1.8" />
-      <module name="cloud-eureka-server-node2-7005" target="1.8" />
-      <module name="cloud-eureka-single-server" target="1.8" />
+      <module name="cloud-eureka-cluster-client-7006" target="11" />
+      <module name="cloud-eureka-cluster-server" target="11" />
+      <module name="cloud-eureka-server-7001" target="11" />
+      <module name="cloud-eureka-server-node1-7004" target="11" />
+      <module name="cloud-eureka-server-node2-7005" target="11" />
+      <module name="cloud-eureka-single-server" target="11" />
+      <module name="cloud-ribbon-client" target="11" />
+      <module name="cloud-ribbon-client-consumer-7012" target="11" />
+      <module name="cloud-ribbon-client-producer-7011" target="11" />
       <module name="cloud-start" target="11" />
-      <module name="cloud-start-8080" target="1.8" />
-      <module name="cloud-zookeeper-client" target="1.8" />
-      <module name="cloud-zookeeper-consumer-7008" target="1.8" />
-      <module name="cloud-zookeeper-producer-7007" target="1.8" />
+      <module name="cloud-start-8080" target="11" />
+      <module name="cloud-zookeeper-client" target="11" />
+      <module name="cloud-zookeeper-consumer-7008" target="11" />
+      <module name="cloud-zookeeper-producer-7007" target="11" />
       <module name="order-consumer-7002" target="11" />
       <module name="order-producer" target="11" />
       <module name="payment-producer" target="11" />

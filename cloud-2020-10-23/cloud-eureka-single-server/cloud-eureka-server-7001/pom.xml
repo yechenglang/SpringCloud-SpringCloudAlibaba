@@ -14,7 +14,6 @@
     <artifactId>cloud-eureka-server-7001</artifactId>
     <packaging>pom</packaging>
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

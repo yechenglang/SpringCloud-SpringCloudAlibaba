@@ -33,6 +33,7 @@
         <module>cloud-zookeeper-client</module>
         <module>cloud-eureka-single-server</module>
         <module>cloud-consul-client</module>
+        <module>cloud-ribbon-client</module>
     </modules>
 
 
@@ -71,6 +72,20 @@
 
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
