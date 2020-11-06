@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server-node2-7005" />
+        <module name="cloud-ribbon-client-producer-7013" />
         <module name="cloud-eureka-server-7000" />
         <module name="cloud-start-8080" />
         <module name="cloud-eureka-client-consumer-7002" />
@@ -20,6 +21,12 @@
         <module name="cloud-eureka-client-producer-7003" />
         <module name="cloud-eureka-server-node1-7004" />
         <module name="cloud-consul-consumer-7010" />
+      </profile>
+      <profile name="Annotation profile for cloud-2020-10-23" enabled="true">
+        <sourceOutputDir name="../cloud-ribbon-client-producer-7011/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../cloud-ribbon-client-producer-7011/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-ribbon-client-producer-7011 (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +52,8 @@
       <module name="cloud-ribbon-client" target="11" />
       <module name="cloud-ribbon-client-consumer-7012" target="11" />
       <module name="cloud-ribbon-client-producer-7011" target="11" />
+      <module name="cloud-ribbon-client-producer-7011 (1)" target="11" />
+      <module name="cloud-ribbon-client-producer-7013" target="11" />
       <module name="cloud-start" target="11" />
       <module name="cloud-start-8080" target="11" />
       <module name="cloud-zookeeper-client" target="11" />

@@ -19,11 +19,11 @@ import java.lang.reflect.Method;
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class CloudRibbonClientProducerApplication {
+public class CloudRibbonClientProducer7011Application {
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(CloudRibbonClientProducerApplication.class, args);
+        SpringApplication.run(CloudRibbonClientProducer7011Application.class, args);
     }
 
 

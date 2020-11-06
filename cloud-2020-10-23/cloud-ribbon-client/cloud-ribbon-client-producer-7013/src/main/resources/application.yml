@@ -1,9 +1,10 @@
 server:
-  port: 7002
+  port: 7013
 
 spring:
   application:
-    name: cloud-order-consumer-service
+    name: cloud-ribbon-client-producer
+
 
 eureka:
   client:
