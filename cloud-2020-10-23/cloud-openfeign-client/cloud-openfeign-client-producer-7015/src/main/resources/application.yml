@@ -1,0 +1,14 @@
+server:
+  port: 7015
+
+spring:
+  application:
+    name: cloud-openfeign-client-producer-7015
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

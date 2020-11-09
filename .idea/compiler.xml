@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server-node2-7005" />
+        <module name="cloud-openfeign-client-consumer-7016" />
         <module name="cloud-ribbon-client-producer-7013" />
         <module name="cloud-eureka-server-7000" />
+        <module name="cloud-openfeign-client-producer-7015" />
         <module name="cloud-start-8080" />
         <module name="cloud-eureka-client-consumer-7002" />
         <module name="cloud-ribbon-client-producer-7011" />
@@ -50,6 +52,9 @@
       <module name="cloud-eureka-server-node1-7004" target="11" />
       <module name="cloud-eureka-server-node2-7005" target="11" />
       <module name="cloud-eureka-single-server" target="11" />
+      <module name="cloud-openfeign-client" target="11" />
+      <module name="cloud-openfeign-client-consumer-7016" target="11" />
+      <module name="cloud-openfeign-client-producer-7015" target="11" />
       <module name="cloud-ribbon-client" target="11" />
       <module name="cloud-ribbon-client-consumer-7012" target="11" />
       <module name="cloud-ribbon-client-custom-consumer-7014" target="11" />

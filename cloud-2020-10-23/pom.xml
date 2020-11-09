@@ -34,6 +34,7 @@
         <module>cloud-eureka-single-server</module>
         <module>cloud-consul-client</module>
         <module>cloud-ribbon-client</module>
+        <module>cloud-openfeign-client</module>
     </modules>
 
 
