@@ -15,6 +15,7 @@
         <module>cloud-ribbon-client-producer-7011</module>
         <module>cloud-ribbon-client-consumer-7012</module>
         <module>cloud-ribbon-client-producer-7013</module>
+        <module>cloud-ribbon-client-custom-consumer-7014</module>
     </modules>
 
 </project>

@@ -1,0 +1,13 @@
+server:
+  port: 7014
+
+spring:
+  application:
+    name: cloud-ribbon-client-custom-consumer-7013
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

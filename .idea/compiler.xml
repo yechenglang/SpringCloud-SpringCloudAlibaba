@@ -19,6 +19,7 @@
         <module name="cloud-eureka-cluster-client-7006" />
         <module name="cloud-ribbon-client-consumer-7012" />
         <module name="cloud-eureka-client-producer-7003" />
+        <module name="cloud-ribbon-client-custom-consumer-7014" />
         <module name="cloud-eureka-server-node1-7004" />
         <module name="cloud-consul-consumer-7010" />
       </profile>
@@ -51,6 +52,7 @@
       <module name="cloud-eureka-single-server" target="11" />
       <module name="cloud-ribbon-client" target="11" />
       <module name="cloud-ribbon-client-consumer-7012" target="11" />
+      <module name="cloud-ribbon-client-custom-consumer-7014" target="11" />
       <module name="cloud-ribbon-client-producer-7011" target="11" />
       <module name="cloud-ribbon-client-producer-7011 (1)" target="11" />
       <module name="cloud-ribbon-client-producer-7013" target="11" />
