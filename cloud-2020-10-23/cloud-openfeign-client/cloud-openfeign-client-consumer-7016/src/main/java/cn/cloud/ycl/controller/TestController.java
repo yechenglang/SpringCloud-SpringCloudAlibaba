@@ -17,5 +17,10 @@ public class TestController {
         return feignService.index();
     }
 
+    @RequestMapping("/timeout")
+    public String getTimeOutIndex() {
+        return feignService.timeIndex();
+    }
+
 
 }

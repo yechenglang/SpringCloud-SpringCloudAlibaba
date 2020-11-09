@@ -5,6 +5,12 @@ spring:
   application:
     name: cloud-openfeign-client-consumer-7016
 
+#设置feign超时时间（Feign默认支持Ribbon）
+ribbon:
+  #建立连接所需时间
+  ReadTimeout: 5000
+  #读取资源所需时间
+  ConnectTimeout: 5000
 
 eureka:
   client:
@@ -12,3 +18,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:7000/eureka/
+
+
+logging:
+  level:
+    #feign日志以什么级别监控那个接口
+    cn.cloud.ycl.feign.FeignService: debug
