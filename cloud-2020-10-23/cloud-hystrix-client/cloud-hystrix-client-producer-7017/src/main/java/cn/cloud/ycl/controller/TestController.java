@@ -32,6 +32,7 @@ public class TestController {
         return result;
     }
 
+    @HystrixCommand
     @RequestMapping("/error/{id}")
     public String error(@PathVariable Integer id) {
         String result = testService.error(id);
