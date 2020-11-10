@@ -7,12 +7,7 @@ spring:
     name: cloud-hystrix-client-consumer-7018
 
 
-#设置feign超时时间（Feign默认支持Ribbon）
-ribbon:
-  #建立连接所需时间
-  ReadTimeout: 5000
-  #读取资源所需时间
-  ConnectTimeout: 5000
+
 
 eureka:
   client:
@@ -20,3 +15,22 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:7000/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000  #熔断超时时间
+
+ribbon:
+  ReadTimeout: 5000  #请求处理的超时时间
+  ConnectTimeout: 5000 #请求连接超时时间
+  MaxAutoRetries: 0 #对当前实例的重试次数
+  MaxAutoRetriesNextServer: 1 #切换实例的重试次数 1

@@ -23,12 +23,11 @@ public class TestService {
      * @param id
      * @return
      */
-    @HystrixCommand(fallbackMethod = "timeoutHandler", commandProperties = {
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
-
-    })
+//    @HystrixCommand(fallbackMethod = "timeoutHandler", commandProperties = {
+//            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
+//    })
     public String timeout(Integer id) {
-        int timeNumber = 5;
+        int timeNumber = 4;
         time(timeNumber);
         return "thread name = " + Thread.currentThread().getName() + ", Timeout , id= " + id + ", port=" + port;
     }

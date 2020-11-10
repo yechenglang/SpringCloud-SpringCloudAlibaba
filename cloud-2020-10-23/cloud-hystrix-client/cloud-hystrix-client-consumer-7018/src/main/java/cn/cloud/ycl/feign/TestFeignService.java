@@ -1,5 +1,7 @@
 package cn.cloud.ycl.feign;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,11 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface TestFeignService {
 
     @RequestMapping("/ok/{id}")
-    public String ok(@PathVariable(value = "id") Integer id);
+    String ok(@PathVariable(value = "id") Integer id);
 
     @RequestMapping("/timeout/{id}")
-    public String timeout(@PathVariable(value = "id") Integer id);
+    String timeout(@PathVariable(value = "id") Integer id);
 
     @RequestMapping("/error/{id}")
-    public String error(@PathVariable(value = "id") Integer id);
+    String error(@PathVariable(value = "id") Integer id);
+
 }
