@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
 @Slf4j
 @RestController
 public class TestController {
@@ -32,6 +31,12 @@ public class TestController {
     @RequestMapping("/error/{id}")
     public String error(@PathVariable("id") Integer id) {
         String result = testFeignService.error(id);
+        return result;
+    }
+
+    @RequestMapping("/circuitBreaker/{id}")
+    public String circuitBreaker(@PathVariable("id") Integer id) {
+        String result = testFeignService.circuitBreaker(id);
         return result;
     }
 

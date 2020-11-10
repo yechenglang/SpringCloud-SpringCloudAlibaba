@@ -15,6 +15,7 @@
     <modules>
         <module>cloud-hystrix-client-producer-7017</module>
         <module>cloud-hystrix-client-consumer-7018</module>
+        <module>cloud-hystrix-client-consumer-dashboard-7019</module>
     </modules>
 
 

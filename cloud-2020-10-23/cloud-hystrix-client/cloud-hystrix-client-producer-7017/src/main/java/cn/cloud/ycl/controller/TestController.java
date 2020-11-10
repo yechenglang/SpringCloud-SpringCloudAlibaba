@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-@DefaultProperties(defaultFallback = "globalFallback")
+//@DefaultProperties(defaultFallback = "globalFallback")
 public class TestController {
 
     @Autowired
@@ -24,7 +24,7 @@ public class TestController {
         return result;
     }
 
-    @HystrixCommand
+    //    @HystrixCommand
     @RequestMapping("/timeout/{id}")
     public String timeout(@PathVariable Integer id) {
         String result = testService.timeout(id);
@@ -32,7 +32,7 @@ public class TestController {
         return result;
     }
 
-    @HystrixCommand
+    //    @HystrixCommand
     @RequestMapping("/error/{id}")
     public String error(@PathVariable Integer id) {
         String result = testService.error(id);
@@ -40,7 +40,14 @@ public class TestController {
         return result;
     }
 
-    String globalFallback(){
+    @RequestMapping("/circuitBreaker/{id}")
+    public String circuitBreaker(@PathVariable Integer id) {
+        String result = testService.circuitBreaker(id);
+        log.info(result);
+        return result;
+    }
+
+    String globalFallback() {
         return "全局控制降级方法,服务繁忙稍后再试！";
     }
 

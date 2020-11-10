@@ -1,0 +1,17 @@
+server:
+  port: 7019
+
+spring:
+  application:
+    name: consumer-dashboard-7019
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

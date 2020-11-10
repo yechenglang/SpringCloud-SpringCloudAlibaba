@@ -24,6 +24,7 @@
         <module name="cloud-eureka-client-producer-7003" />
         <module name="cloud-ribbon-client-custom-consumer-7014" />
         <module name="cloud-eureka-server-node1-7004" />
+        <module name="cloud-hystrix-client-consumer-dashboard-7019" />
         <module name="cloud-consul-consumer-7010" />
         <module name="cloud-hystrix-client-producer-7017" />
       </profile>
@@ -56,6 +57,7 @@
       <module name="cloud-eureka-single-server" target="11" />
       <module name="cloud-hystrix-client" target="11" />
       <module name="cloud-hystrix-client-consumer-7018" target="11" />
+      <module name="cloud-hystrix-client-consumer-dashboard-7019" target="11" />
       <module name="cloud-hystrix-client-producer-7017" target="11" />
       <module name="cloud-openfeign-client" target="11" />
       <module name="cloud-openfeign-client-consumer-7016" target="11" />

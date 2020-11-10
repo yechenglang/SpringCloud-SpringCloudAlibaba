@@ -6,7 +6,11 @@ spring:
   application:
     name: cloud-hystrix-client-consumer-7018
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
 
 
 eureka:
