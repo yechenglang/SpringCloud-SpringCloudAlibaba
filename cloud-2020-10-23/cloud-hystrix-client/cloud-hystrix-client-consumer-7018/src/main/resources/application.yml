@@ -1,0 +1,22 @@
+server:
+  port: 7018
+
+
+spring:
+  application:
+    name: cloud-hystrix-client-consumer-7018
+
+
+#设置feign超时时间（Feign默认支持Ribbon）
+ribbon:
+  #建立连接所需时间
+  ReadTimeout: 5000
+  #读取资源所需时间
+  ConnectTimeout: 5000
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

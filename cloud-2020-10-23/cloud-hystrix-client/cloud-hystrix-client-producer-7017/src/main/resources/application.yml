@@ -1,10 +1,10 @@
 server:
-  port: 7015
+  port: 7017
+
 
 spring:
   application:
-    name: cloud-openfeign-client-producer-7015
-
+    name: cloud-hystrix-client-producer-7017
 
 
 eureka:
