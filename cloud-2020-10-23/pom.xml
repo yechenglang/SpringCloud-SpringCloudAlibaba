@@ -21,6 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+        <hutool-all.version>5.3.1</hutool-all.version>
         <lombok.version>1.18.14</lombok.version>
         <spring-boot-dependencies.version>2.3.3.RELEASE</spring-boot-dependencies.version>
         <spring-cloud-dependencies.version>Hoxton.SR8</spring-cloud-dependencies.version>
@@ -37,6 +38,7 @@
         <module>cloud-openfeign-client</module>
         <module>cloud-hystrix-client</module>
         <module>cloud-gateway-server</module>
+        <module>cloud-config-server</module>
     </modules>
 
 
@@ -68,6 +70,12 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool-all.version}</version>
                 <optional>true</optional>
             </dependency>
         </dependencies>

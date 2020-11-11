@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-2020-10-23.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-2020-10-23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-client.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-consumer-7010/cloud-consul-consumer-7010.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-consumer-7010/cloud-consul-consumer-7010.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-producer-7009/cloud-consul-producer-7009.iml" filepath="$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-producer-7009/cloud-consul-producer-7009.iml" />
