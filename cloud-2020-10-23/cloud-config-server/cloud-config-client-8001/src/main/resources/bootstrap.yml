@@ -1,0 +1,19 @@
+#优先加载外部的公共config  yml,bootstrap.yml高于application.yml
+server:
+  port: 8001
+
+spring:
+  cloud:
+    config:
+      enabled: true
+      label: main
+      name: config
+      profile: dev
+      uri: http://localhost:8000
+  application:
+    name: cloud-config-client-8001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

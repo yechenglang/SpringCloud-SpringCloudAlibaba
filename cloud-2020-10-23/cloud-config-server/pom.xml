@@ -3,17 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>cloud-2020-10-23</artifactId>
         <groupId>org.example</groupId>
+        <artifactId>cloud-2020-10-23</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-gateway-server</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>cloud-config-server</artifactId>
+
     <modules>
-        <module>cloud-gateway-server-7020</module>
-        <module>cloud-dynamic-gateway-server-7021</module>
+        <module>cloud-config-client-8001</module>
+        <module>cloud-config-server-8000</module>
     </modules>
 
 

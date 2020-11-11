@@ -9,11 +9,11 @@ import java.lang.reflect.Method;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class CloudDynamlcGatewayServer7021Application {
+public class CloudConfigClient8001Application {
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(CloudDynamlcGatewayServer7021Application.class, args);
+        SpringApplication.run(CloudConfigClient8001Application.class, args);
     }
 
     /**
@@ -38,4 +38,5 @@ public class CloudDynamlcGatewayServer7021Application {
         } catch (Exception ignored) {
         }
     }
+
 }

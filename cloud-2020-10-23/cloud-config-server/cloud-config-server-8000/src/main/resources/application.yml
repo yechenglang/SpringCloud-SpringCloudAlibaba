@@ -2,9 +2,6 @@ server:
   port: 8000
 
 spring:
-  application:
-    name: cloud-config-server
-
   cloud:
     config:
       server:
@@ -15,7 +12,8 @@ spring:
             - springcloud-config
       #读取分支
       label: main
-
+  application:
+    name: cloud-config-server-8000
 
 eureka:
   client:
