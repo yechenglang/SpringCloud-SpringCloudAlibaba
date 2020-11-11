@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-client-producer-7003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-server-7000/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-server-7000/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-gateway-server/cloud-gateway-server-7020/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-gateway-server/cloud-gateway-server-7020/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-hystrix-client/cloud-hystrix-client-consumer-7018/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-hystrix-client/cloud-hystrix-client-consumer-7018/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-hystrix-client/cloud-hystrix-client-consumer-dashboard-7019/src/main/java" charset="UTF-8" />

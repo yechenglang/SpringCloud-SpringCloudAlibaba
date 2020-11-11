@@ -1,30 +1,20 @@
 package cn.cloud.ycl;
 
-
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/**
- * @author 叶成浪
- * @date 2020.10.23
- */
 @SpringBootApplication
 @EnableEurekaClient
-public class OrderConsumerApplication {
+public class CloudGatewayServer7020Application {
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(OrderConsumerApplication.class, args);
+        SpringApplication.run(CloudGatewayServer7020Application.class, args);
     }
-
 
     /**
      * 忽略非法反射警告  适用于jdk11

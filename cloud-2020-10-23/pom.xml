@@ -36,6 +36,7 @@
         <module>cloud-ribbon-client</module>
         <module>cloud-openfeign-client</module>
         <module>cloud-hystrix-client</module>
+        <module>cloud-gateway-server</module>
     </modules>
 
 
