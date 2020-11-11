@@ -38,7 +38,7 @@
         <module>cloud-openfeign-client</module>
         <module>cloud-hystrix-client</module>
         <module>cloud-gateway-server</module>
-        <module>cloud-config-server</module>
+        <module>cloud-config-server-8000</module>
     </modules>
 
 

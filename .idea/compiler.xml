@@ -10,7 +10,6 @@
         <module name="cloud-hystrix-client-consumer-7018" />
         <module name="cloud-eureka-server-node2-7005" />
         <module name="cloud-openfeign-client-consumer-7016" />
-        <module name="cloud-config-server" />
         <module name="cloud-ribbon-client-producer-7013" />
         <module name="cloud-eureka-server-7000" />
         <module name="cloud-openfeign-client-producer-7015" />
@@ -23,6 +22,7 @@
         <module name="cloud-eureka-cluster-client-7006" />
         <module name="cloud-dynamlc-gateway-server-7021" />
         <module name="cloud-ribbon-client-consumer-7012" />
+        <module name="cloud-config-server-8000" />
         <module name="cloud-eureka-client-producer-7003" />
         <module name="cloud-ribbon-client-custom-consumer-7014" />
         <module name="cloud-eureka-server-node1-7004" />
@@ -40,7 +40,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-10-23" target="11" />
-      <module name="cloud-config-server" target="11" />
+      <module name="cloud-config-server-8000" target="11" />
       <module name="cloud-consul-client" target="11" />
       <module name="cloud-consul-consumer-7010" target="11" />
       <module name="cloud-consul-producer-7009" target="11" />

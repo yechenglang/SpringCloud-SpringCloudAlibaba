@@ -1,0 +1,23 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          #远程git地址
+          uri: https://github.com/yechenglang/springcloud-config.git
+          search-paths:
+            - springcloud-config
+      #读取分支
+      label: main
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
