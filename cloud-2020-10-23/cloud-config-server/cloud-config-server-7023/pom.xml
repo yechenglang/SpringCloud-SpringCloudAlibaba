@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-config-server-8000</artifactId>
+    <artifactId>cloud-config-server-7023</artifactId>
 
     <dependencies>
         <dependency>

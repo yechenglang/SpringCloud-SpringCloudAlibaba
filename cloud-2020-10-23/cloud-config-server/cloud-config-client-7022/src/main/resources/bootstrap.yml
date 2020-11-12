@@ -1,6 +1,6 @@
 #优先加载外部的公共config  yml,bootstrap.yml高于application.yml
 server:
-  port: 8001
+  port: 7022
 
 spring:
   cloud:
@@ -9,11 +9,18 @@ spring:
       label: main
       name: config
       profile: dev
-      uri: http://localhost:8000
+      uri: http://localhost:7023
   application:
-    name: cloud-config-client-8001
+    name: cloud-config-client-7022
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7000/eureka/
+
+#暴露监控端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

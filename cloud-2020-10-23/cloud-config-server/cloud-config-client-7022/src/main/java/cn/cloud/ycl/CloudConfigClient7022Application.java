@@ -2,7 +2,6 @@ package cn.cloud.ycl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import java.lang.reflect.Field;
@@ -10,12 +9,11 @@ import java.lang.reflect.Method;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableConfigServer
-public class CloudConfigServer8000Application {
+public class CloudConfigClient7022Application {
 
     public static void main(String[] args) {
         disableAccessWarnings();
-        SpringApplication.run(CloudConfigServer8000Application.class, args);
+        SpringApplication.run(CloudConfigClient7022Application.class, args);
     }
 
     /**

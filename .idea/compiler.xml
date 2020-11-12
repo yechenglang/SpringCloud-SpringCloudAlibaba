@@ -9,19 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-hystrix-client-consumer-7018" />
         <module name="cloud-openfeign-client-consumer-7016" />
-        <module name="cloud-config-server" />
         <module name="cloud-eureka-client-consumer-7002" />
         <module name="cloud-zookeeper-producer-7007" />
         <module name="cloud-zookeeper-consumer-7008" />
         <module name="cloud-ribbon-client-consumer-7012" />
-        <module name="cloud-config-server-8000" />
         <module name="cloud-ribbon-client-custom-consumer-7014" />
+        <module name="cloud-config-client-7022" />
         <module name="cloud-eureka-server-node1-7004" />
         <module name="cloud-hystrix-client-consumer-dashboard-7019" />
         <module name="cloud-gateway-server-7020" />
         <module name="cloud-consul-consumer-7010" />
         <module name="cloud-eureka-server-node2-7005" />
         <module name="cloud-dynamic-gateway-server-7021" />
+        <module name="cloud-config-server-7023" />
         <module name="cloud-ribbon-client-producer-7013" />
         <module name="cloud-eureka-server-7000" />
         <module name="cloud-openfeign-client-producer-7015" />
@@ -42,8 +42,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-10-23" target="11" />
+      <module name="cloud-config-client-7022" target="11" />
       <module name="cloud-config-client-8001" target="11" />
       <module name="cloud-config-server" target="11" />
+      <module name="cloud-config-server-7023" target="11" />
       <module name="cloud-config-server-8000" target="11" />
       <module name="cloud-consul-client" target="11" />
       <module name="cloud-consul-consumer-7010" target="11" />

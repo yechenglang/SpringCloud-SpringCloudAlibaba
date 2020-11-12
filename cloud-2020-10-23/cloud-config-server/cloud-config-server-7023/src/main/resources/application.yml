@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 7023
 
 spring:
   cloud:
@@ -13,7 +13,7 @@ spring:
       #读取分支
       label: main
   application:
-    name: cloud-config-server-8000
+    name: cloud-config-server-7023
 
 eureka:
   client:

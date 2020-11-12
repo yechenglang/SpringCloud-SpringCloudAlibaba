@@ -22,6 +22,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-server-8000/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-config-server-7023/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order-producer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-client-order/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-2020-10-23/untitled/pom.xml" />
