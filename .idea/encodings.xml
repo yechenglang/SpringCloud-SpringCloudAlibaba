@@ -3,8 +3,6 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-client-7022/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-client-7022/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-client-8001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-client-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-server-7023/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-config-server/cloud-config-server-7023/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-consul-client/cloud-consul-consumer-7010/src/main/java" charset="UTF-8" />
@@ -33,6 +31,8 @@
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-hystrix-client/cloud-hystrix-client-consumer-dashboard-7019/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-hystrix-client/cloud-hystrix-client-producer-7017/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-hystrix-client/cloud-hystrix-client-producer-7017/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-nacos-server/cloud-nacos-server-7080/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-nacos-server/cloud-nacos-server-7080/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-openfeign-client/cloud-openfeign-client-consumer-7016/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-openfeign-client/cloud-openfeign-client-consumer-7016/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-openfeign-client/cloud-openfeign-client-producer-7015/src/main/java" charset="UTF-8" />
@@ -47,6 +47,8 @@
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-ribbon-client/cloud-ribbon-client-producer-7013/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-start-8080/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-stream-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-stream-mq/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-consumer-7008/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-consumer-7008/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-2020-10-23/cloud-zookeeper-client/cloud-zookeeper-producer-7007/src/main/java" charset="UTF-8" />
