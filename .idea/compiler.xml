@@ -29,6 +29,7 @@
         <module name="cloud-openfeign-client-producer-7015" />
         <module name="cloud-start-8080" />
         <module name="cloud-ribbon-client-producer-7011" />
+        <module name="cloud-nacos-client-config-7083" />
         <module name="cloud-consul-producer-7009" />
         <module name="cloud-nacos-server-7080" />
         <module name="cloud-eureka-cluster-client-7006" />
@@ -68,6 +69,7 @@
       <module name="cloud-hystrix-client-consumer-7018" target="11" />
       <module name="cloud-hystrix-client-consumer-dashboard-7019" target="11" />
       <module name="cloud-hystrix-client-producer-7017" target="11" />
+      <module name="cloud-nacos-client-config-7083" target="1.8" />
       <module name="cloud-nacos-client-consumer-7082" target="1.8" />
       <module name="cloud-nacos-server" target="1.8" />
       <module name="cloud-nacos-server-7080" target="1.8" />

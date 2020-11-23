@@ -22,6 +22,7 @@
         <module>cloud-nacos-server-7080</module>
         <module>cloud-nacos-server-7081</module>
         <module>cloud-nacos-client-consumer-7082</module>
+        <module>cloud-nacos-client-config-7083</module>
     </modules>
 
 

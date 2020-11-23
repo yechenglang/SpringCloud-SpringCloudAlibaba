@@ -1,0 +1,17 @@
+server:
+  port: 7083
+
+  nacos-url: localhost:8848
+
+spring:
+  application:
+    name: cloud-nacos-client-config
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${server.nacos-url}
+      config:
+        server-addr: ${server.nacos-url}
+        enabled: true
+        file-extension: yaml
