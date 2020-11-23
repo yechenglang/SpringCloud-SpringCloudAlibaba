@@ -1,5 +1,6 @@
 server:
-  port: 7080
+  port: 7081
+
   url: 127.0.0.1:8848
 
 spring:

@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-eureka-single-server/cloud-eureka-client-producer-7003/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-ribbon-client/cloud-ribbon-client-custom-consumer-7013/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-gateway-server/cloud-dynamlc-gateway-server-7021/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-nacos-server/cloud-nacos-server-7081/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-2020-10-23/cloud-nacos-server/cloud-nacos-client-consumber-7082/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -1,0 +1,13 @@
+server:
+  port: 7082
+
+spring:
+  application:
+    name: nacos-client-consumer-7082
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+
+server-url:
+  nacos-user-service: http://cloud-nacos-server
